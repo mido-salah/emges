@@ -1,0 +1,18 @@
+.img {
+    background-image: url("../imgs/Capture.PNG");
+    background-size: contain;
+    width: 400px;
+    height: 348px;
+    position: relative;
+}
+
+.img::before {
+    content: "";
+    position: absolute;
+    background-image: url("../imgs/القلاية\ الهوائية\ بالزانو.jpg");
+    background-size: cover;
+    height: 100px;
+    width: 100px;
+
+
+}
